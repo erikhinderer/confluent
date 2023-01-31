@@ -4,9 +4,8 @@
 #!/bin/bash
 confluent kafka topic consume table18 -b \
   --protocol SASL_SSL \
-  --bootstrap ":19091" \
+  --bootstrap "http://bootstrap.kafkacluster.local:19091" \
   --username admin --password secret \
   --value-format avro \
-  --sr-endpoint https://localhost:8085 \
   --ca-location scripts/security/snakeoil-ca-1.crt
 done
