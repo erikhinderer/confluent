@@ -1,5 +1,5 @@
 ## Script function: Test Kafka Consumer Functionality
-## Author: Erik Hinderer @VMW ehinderer@confluent.io
+## Author: Erik Hinderer @erikhinderer
 ## Version 1.0
 #!/bin/bash
 confluent kafka topic consume table18 -b \
