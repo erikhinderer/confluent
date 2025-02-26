@@ -16,7 +16,12 @@ In addition to being able to connect to on-premises resources, you can also secu
 ```
 netcat -z -v mydatabase.mydomain.com 1433
 ```
-4. On the Linux VM execute the nat2onprem.sh script 
+4. Run the nat2onprem.sh script on the Linux VM
+```
+sudo ./nat2onprem.sh -i eth0 -f 1433 -a myonpremdb.mydomain.com -b 1433
+```
+5. Deploy the Confluent Cloud Connector using the IP address of the Linux VM as it's target.
+6. Check the Confluent Cloud Connector message count to verify operation.
 
 # Using a Bastion Host for connectivity from an Azure vNET to an On-Premises Database
 
