@@ -4,7 +4,7 @@
 nat2onprem.sh enables you to securely access on-premises resources via your cloud networks. The private access is resource specific as opposed to service specific and protects against data exfiltration in that connectivity can be initiated in only a single direction.
 
 # How It Works
-nat2onprem.sh configures a Linux VM with DNAT and SNAT IP Tables rules to provide port forwarding for Confluent Cloud Connectors to reach on-premises databases via the client's cloud network
+nat2onprem.sh configures a Linux VM with DNAT and SNAT IP Tables rules to provide port forwarding for Confluent Cloud Connectors to reach on-premises databases via the client's cloud network.
 
 # IaaS Connectivity
 In addition to being able to connect to on-premises resources, you can also securely connect to other VPC / vNET databases.
