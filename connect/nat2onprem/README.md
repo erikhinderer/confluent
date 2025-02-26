@@ -1,4 +1,4 @@
-# Securely connect to an on-premises database from the cloud
+# Securely connect to an on-premises database from a Confluent Cloud Connector
 
 # Introduction
 nat2onprem.sh enables you to securely access on-premises resources via your cloud networks. The private access is resource specific as opposed to service specific and protects against data exfiltration in that connectivity can be initiated in only a single direction.
