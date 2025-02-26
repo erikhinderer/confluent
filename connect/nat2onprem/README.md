@@ -172,4 +172,12 @@ echo "Bastion Public IP is: $(az vm show -d -g az-fwd-rg -n bastionvm --query pu
      ```sudo ./ip_fwd.sh -i eth0 -f 1433 -a <FQDN/IP> -b 1433```  
      This will forward packets coming in on Ethernet Interface ```eth0``` on port ```1433``` to the ```Destination FQDN or IP of the on-prem SQL Server``` on port ```1433```
 
+# Connectivity from a VPC to an On-Premises Database
+
+1. Implementing the Forwarding Solution:
+```
+# ALLOWED_IP_ADDRESS is the allowed IP Address from which you'll connect
+# to the Bastion VM via SSH. Be sure to add the /32 CIDR at the end
+export ALLOWED_IP_ADDRESSES="aaa.bbb.ccc.ddd"
+
 
