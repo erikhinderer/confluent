@@ -9,10 +9,10 @@ usage() {
 	echo -e "\e[33m"
 	echo "usage: ${0} [-i <eth_interface>] [-f <frontend_port>] [-a <dest_ip_addr>] [-b <dest_port>]" 1>&2
 	echo "where:" 1>&2
-	echo "<eth_interface>: Interface on which packet will arrive and be forwarded" 1>&2
-	echo "<frontend_port>: Frontend port on which packet arrives" 1>&2
-	echo "<dest_port>    : Destination port to which packet is forwarded" 1>&2
-	echo "<dest_ip_addr> : Destination IP which packet is forwarded" 1>&2
+	echo "<eth_interface>: Interface on which the packet will arrive and be forwarded" 1>&2
+	echo "<frontend_port>: Frontend port on which the packet arrives" 1>&2
+	echo "<dest_port>    : Destination port to which the packet is forwarded" 1>&2
+	echo "<dest_ip_addr> : Destination IP which the packet is forwarded" 1>&2
 	echo -e "\e[0m"
 }
 
