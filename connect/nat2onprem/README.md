@@ -19,7 +19,7 @@ sudo chmod +x nat2onprem.sh
 ```
 netcat -z -v mydatabase.mydomain.com 1433
 ```
-4. Run the nat2onprem.sh script on the Linux VM
+4. Run the nat2onprem.sh script on the Linux VM.
 ```
 sudo ./nat2onprem.sh -i eth0 -f 1433 -a myonpremdb.mydomain.com -b 1433
 ```
