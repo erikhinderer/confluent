@@ -9,7 +9,7 @@ nat2onprem.sh configures a Linux VM with DNAT and SNAT IP Tables rules to provid
 # IaaS Connectivity
 In addition to being able to connect to on-premises resources, you can also securely connect to other VPC / vNET databases.
 
-Usage in AWS, Azure or GCP
+# Usage in AWS, Azure or GCP
 1. Deploy a micro Linux VM within the VPC or vNET that Confluent Cloud is connected to.
 2. Copy the nat2onprem.sh script to the Linux VM.
 3. Ensure the Linux VM can reach the on-premises database.
