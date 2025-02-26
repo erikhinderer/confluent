@@ -167,9 +167,9 @@ echo "PLS ID is ${PLS_ID}"
 echo "Bastion Public IP is: $(az vm show -d -g az-fwd-rg -n bastionvm --query publicIps -o tsv)"
 ```
 2. Creating Forwarding Rule to Endpoint
-   * Copy [ip_fwd.sh](ip_fwd.sh) to the Bastion VM and then to each of the  NAT VMs
+   * Copy nat2oonprem.sh to the Bastion VM and then to each of the NAT VMs
    * Run the script on each VM with the following options:  
-     ```sudo ./ip_fwd.sh -i eth0 -f 1433 -a <FQDN/IP> -b 1433```  
+     ```sudo ./nat2onprem.sh -i eth0 -f 1433 -a <FQDN/IP> -b 1433```  
      This will forward packets coming in on Ethernet Interface ```eth0``` on port ```1433``` to the ```Destination FQDN or IP of the on-prem SQL Server``` on port ```1433```
 
 # Connectivity from a VPC to an On-Premises Database
