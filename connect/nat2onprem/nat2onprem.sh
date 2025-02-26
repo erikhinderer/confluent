@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #-------------------------------------------------------------------------
-# nat2onprem.sh - use the port and DB FQDN / IP of the on-prem DB
+# nat2onprem.sh - use the port and FQDN / IP of the on-prem DB
 # Usage sudo ./nat2onprem.sh -i eth0 -f 1433 -a myonpremdb.mydomain.com -b 1433
 #--------------------------------------------------------------------------
 
