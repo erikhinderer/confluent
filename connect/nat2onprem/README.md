@@ -20,6 +20,8 @@ netcat -z -v mydatabase.mydomain.com 1433
 ```
 sudo ./nat2onprem.sh -i eth0 -f 1433 -a myonpremdb.mydomain.com -b 1433
 ```
-5. Deploy the Confluent Cloud Connector using the IP address of the Linux VM as it's target.
-6. Check the Confluent Cloud Connector message count to verify operation.
+5. Ensure egress networking is configured in Confluent Cloud for Connectors.
+7. Deploy the Confluent Cloud Connector using the IP address of the Linux VM as it's target.
+8. Check the Confluent Cloud Connector message count to verify operation.
 
+*Both VPC Peering and PrivateLink connections are supported
