@@ -9,7 +9,7 @@ nat2onprem.sh configures a Linux VM with DNAT and SNAT IP Tables rules to provid
 # IaaS Connectivity
 In addition to being able to connect to on-premises resources, you can also securely connect to other VPC / vNET databases.
 
-# Connectivity from a VPC or vNET to an On-Premises Database
+# Connectivity from a vNET to an On-Premises Database
 
 1. Implementing the Forwarding Solution:
 ```
