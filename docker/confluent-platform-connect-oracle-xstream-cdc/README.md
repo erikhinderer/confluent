@@ -8,12 +8,27 @@ This Dockerfile creates a Docker Image with Confluent Platform and the early acc
 ```
 mkdir /srv/docker/cp-connect-oracle-xstream-demo
 ```
-2. Ensure the Linux VM can reach the on-premises database.
+2. Download the Dockerfile to the directory with wget.
 ```
-netcat -z -v mydatabase.mydomain.com 1433
+wget https://github.com/erikhinderer/confluent/blob/main/docker/confluent-platform-connect-oracle-xstream-cdc/Dockerfile
 ```
-4. Run the nat2onprem.sh script on the Linux VM.
+4. Create a local Docker Registry for the image.
 ```
-sudo ./nat2onprem.sh -i eth0 -f 1433 -a myonpremdb.mydomain.com -b 1433
+docker run -d -p 5000:5000 --name local-registry registry:2
 ```
-
+5. Build the Confluent Platform cluster docker image with the Oracle XStream CDC Connector installed.
+```
+docker build . -t cp-connect-oracle-xstream-demo:1.0.1
+```
+6. Verify the image was created in the Docker Registry.
+```
+docker image ls
+```
+7. Run the Docker image.
+```
+docker run -it <your docker repository>/cp-connect-oracle-xstream-demo:1.0.1
+```
+8. Open Confluent Control Center in a browser to verify.
+```
+http://localhost:9021
+```
