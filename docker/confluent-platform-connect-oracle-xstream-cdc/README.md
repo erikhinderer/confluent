@@ -3,7 +3,7 @@
 # Introduction
 This Dockerfile creates a Docker Image with Confluent Platform and the early access version Oracle XStream CDC Connector. 
 
-*If you're new to Docker, download Docker Desktop and create a personal account: https://www.docker.com/products/docker-desktop/
+*If you're on laptop or desktop, download Docker Desktop and create a personal account: https://www.docker.com/products/docker-desktop/
 
 # Instructions
 1. Create a directory for the Dockerfile.
