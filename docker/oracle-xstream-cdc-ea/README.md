@@ -23,3 +23,4 @@ docker image ls
 docker container ls
 ```
 5. Log into Control Center on http://localhost:9021 and add the Oracle XStream CDC Connector.
+6. Configure the Oracle XStream CDC Connector.
