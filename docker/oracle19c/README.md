@@ -1,4 +1,4 @@
-# Oracle 19c Database Quick Start
+# Deploy Oracle 19c Database in SingleInstance-NonCDB mode via Docker
 
 1. Copy the image
    
