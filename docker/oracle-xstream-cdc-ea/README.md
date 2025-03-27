@@ -6,7 +6,11 @@ Resouces: 2 CPUs / 8GB RAM / 16GB DISK
 
 # Usage
 1. Copy the Dockerfile and docker-compose.yml to a directory.
-2. Compose the Docker image up in detached mode.
+```
+wget https://github.com/erikhinderer/confluent/blob/main/docker/oracle-xstream-cdc-ea/Dockerfile
+wget https://github.com/erikhinderer/confluent/blob/main/docker/oracle-xstream-cdc-ea/docker-compose.yml
+```
+3. Compose the Docker image up in detached mode.
 ```
 docker compose up -d
 ```
