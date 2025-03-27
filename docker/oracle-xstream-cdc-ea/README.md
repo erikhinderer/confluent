@@ -8,15 +8,15 @@
 ```
 docker compose up -d
 ```
-3. Veryify the Docker Image is pulled and containers are running.
+3. Veryify the Docker Image is pulled.
+```
+docker image ls
+```
+4. Veryify the Docker containers are running.
 ```
 docker container ls
 ```
-4. Veryify the Docker Image is pulled and containers are running.
-```
-docker container ls
-```
-5. Add and configure the Confluent Platform Oracle XStream CDC Connector via Control Center.
+5. Log into Control Center and add the Oracle XStream CDC Connector.
 ```
 Open http://localhost:9021 in a web browser and navigate to the Connect Cluster and Add Connector
 ...
