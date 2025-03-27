@@ -1,4 +1,4 @@
-# Deploy Confluent Platform 7.9.0 with Connect and the Oracle XStream CDC Connector EA version via Docker
+# Deploy Confluent Platform 7.9.0 with the Oracle XStream CDC Connector EA version via Docker
 
 Resouces: 2 CPUs / 8GB RAM / 16GB DISK
 
