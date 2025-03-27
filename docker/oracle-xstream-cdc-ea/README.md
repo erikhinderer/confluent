@@ -23,6 +23,4 @@ docker image ls
 docker container ls
 ```
 5. Log into Control Center and add the Oracle XStream CDC Connector.
-```
-Open [Confluent Control Center](http://localhost:9021) in a web browser and navigate to the Connect Cluster and Add Connector
-...
+   [Confluent Control Center](http://localhost:9021)
