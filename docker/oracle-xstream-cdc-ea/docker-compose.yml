@@ -50,7 +50,7 @@ services:
       SCHEMA_REGISTRY_LISTENERS: http://0.0.0.0:8081
 
   connect:
-    image: erikhinderer/cp-server-connect-oraclextreamcdc:latest
+    image: erikhinderer/cp-server-connect-oraclexstreamcdc:latest
     hostname: connect
     container_name: connect
     depends_on:
