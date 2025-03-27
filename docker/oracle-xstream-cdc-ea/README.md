@@ -1,5 +1,7 @@
 # Confluent Platform 7.9.0 with Connect and the Oracle XStream CDC Connector EA version
 
+Resouces: 2 CPUs / 8GB RAM / 16GB DISK
+
 <img width="1792" alt="cp-oraclexstreamcdc-connector" src="https://github.com/user-attachments/assets/7535b2a8-1699-4680-8738-af929965d24a" />
 
 # Usage
