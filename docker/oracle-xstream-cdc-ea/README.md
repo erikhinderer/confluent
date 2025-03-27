@@ -5,9 +5,8 @@ Resouces: 2 CPUs / 8GB RAM / 16GB DISK
 <img width="1792" alt="cp-oraclexstreamcdc-connector" src="https://github.com/user-attachments/assets/7535b2a8-1699-4680-8738-af929965d24a" />
 
 # Usage
-1. Copy the Dockerfile and docker-compose.yml to a directory.
+1. Copy the docker-compose.yml to a directory.
 ```
-wget https://github.com/erikhinderer/confluent/blob/main/docker/oracle-xstream-cdc-ea/Dockerfile
 wget https://github.com/erikhinderer/confluent/blob/main/docker/oracle-xstream-cdc-ea/docker-compose.yml
 ```
 3. Compose the Docker image up in detached mode.
