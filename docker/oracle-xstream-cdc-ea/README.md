@@ -6,7 +6,7 @@ Resouces: 2 CPUs / 8GB RAM / 16GB DISK
 
 # Usage
 1. Copy the Dockerfile and docker-compose.yml to a directory.
-2. Compose the Docker image up with detached mode.
+2. Compose the Docker image up in detached mode.
 ```
 docker compose up -d
 ```
