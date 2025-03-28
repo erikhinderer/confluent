@@ -1,4 +1,4 @@
-# Deploy Oracle 19c Database in SingleInstance-NonCDB mode via Docker
+# Deploy Oracle 19c Database in Single Instance-NonCDB mode via Docker
 
 1. Copy the image
    
