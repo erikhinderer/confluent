@@ -7,7 +7,7 @@ Resouces: 2 CPUs / 8GB RAM / 16GB DISK
 # Usage
 1. Download the docker-compose.yml file to a directory on the server.
 ```
-wget https://raw.githubusercontent.com/erikhinderer/confluent/refs/heads/main/docker/oracle-xstream-cdc-ea/docker-compose.yml
+curl -LJO https://raw.githubusercontent.com/erikhinderer/confluent/refs/heads/main/docker/oracle-xstream-cdc-ea/docker-compose.yml
 ```
 2. Run docker compose to build and start the container.
 ```
